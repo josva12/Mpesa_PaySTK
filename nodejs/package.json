@@ -1,0 +1,42 @@
+{
+  "name": "mpesa-stk-push",
+  "version": "1.0.0",
+  "description": "M-Pesa STK Push Payment Integration with MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "mpesa",
+    "daraja",
+    "stk-push",
+    "payment",
+    "mongodb",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.1.0",
+    "bcryptjs": "^2.4.3",
+    "winston": "^3.10.0",
+    "express-rate-limit": "^6.10.0",
+    "helmet": "^7.0.0",
+    "cors": "^2.8.5",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
