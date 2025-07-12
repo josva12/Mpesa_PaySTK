@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json # If you prefer to regenerate on install, otherwise track it.
+                  # For most Node.js projects, it's recommended to track package-lock.json
+
+# Environment variables (CRUCIAL for sensitive Mpesa API keys)
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+# Any other specific environment files or secrets
+
+# Logs
+logs/
+*.log
+
+# Build artifacts (if your project has a build step)
+dist/
+build/
+coverage/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Any Mpesa specific temporary files or certificates that should NOT be in Git
+# Example (adjust as per your project):
+# certs/ # If you download temporary certificates into this folder
+# *.pem
+# *.key
+
